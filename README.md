@@ -3,18 +3,27 @@ CreditCard, Bank Transaction SMS/Push Notification Parser
 
 
 1. Test Endpoint
+
 POST  http://52.79.69.105/billzi/ns/payMessage/parsePayMessage
+
 Header : Content-Type , application/json
+
 Body Sample :
+
 - SMS Request
+
 {
+
 	"inputCd":"S",	                // 'S'ms , 'P'ush
 	"msgInputKey": "15993333",	// 문자받은전화번호
 	"rawTitle":"",			
 	"rawText":"[카카오뱅크] 이*신(9999) 12/11 15:42 출금 7,250원 세븐일레븐 가평목동 잔액 4,123,123원"
 }
+
 - SMS Response
+
 {
+
     "resultVO": {
         "resultCode": "0",
         "resultMessage": "SUCCESS",
@@ -48,6 +57,7 @@ Body Sample :
         "parsingSuccess": true
     },
     "parsingSuccess": true
+    
 }
 
 - Push Request
