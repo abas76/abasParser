@@ -17,6 +17,8 @@ CreditCard , Bank Transaction SMS Push Notification Parser
 . KB국민은행,신한은행,우리은행,하나은행,케이뱅크,카카오뱅크,NH농협은행,수협은행,MG새마을,SC제일은행,씨티은행,KDB산업은행,IBK기업은행,대구은행,BNK부산은행,BNK경남은행,광주은행,전북은행,제주은행
 
 
+# Test 방법
+
 1. Test Endpoint
 
 POST  http://52.79.69.105/billzi/ns/payMessage/parsePayMessage
