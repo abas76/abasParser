@@ -24,6 +24,7 @@ Body Sample :
 - SMS Response
 
 {
+
     "resultVO": {
         "resultCode": "0",
         "resultMessage": "SUCCESS",
@@ -64,15 +65,18 @@ Body Sample :
 - Push Request
 
 {
+
 	"inputCd":"P",			            // 'S'ms , 'P'ush
 	"msgInputKey":"com.shinhan.smartcaremgr",   // 노티받은 앱패키지명
 	"rawTitle":"SOL알리미",			    // 노티메세지 타이틀
 	"rawText":"신한카드(7912)승인 홍*동 10,000원(일시불)02/07 17:21 감성타코강남역점 누적 5,123,1234원"
+	
 }
 
 - Push Response 
 
 {
+
     "resultVO": {
         "resultCode": "0",
         "resultMessage": "SUCCESS",
@@ -107,6 +111,7 @@ Body Sample :
         "parsingSuccess": true
     },
     "parsingSuccess": true
+    
 }
 
 # 20200201 현재 지원가능 금융사
