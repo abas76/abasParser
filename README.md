@@ -1,7 +1,7 @@
 # abasParser
-CreditCard, Bank Transaction SMS/Push Notification Parser
+CreditCard , Bank Transaction SMS Push Notification Parser
 
-신용카드 , 은행 문자 푸시 알림 메세지 파싱 
+신용 카드 , 은행 문자 푸시 알림 메세지 파싱 
 
 
 1. Test Endpoint
