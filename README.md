@@ -19,9 +19,7 @@ CreditCard , Bank Transaction SMS Push Notification Parser
 
 # Test 방법
 
-1. Test Endpoint
-
-POST  http://52.79.69.105/billzi/ns/payMessage/parsePayMessage
+Test Endpoint : POST  http://52.79.69.105/billzi/ns/payMessage/parsePayMessage
 
 Header : Content-Type , application/json
 
