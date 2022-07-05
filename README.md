@@ -124,10 +124,11 @@ Body Sample :
 
 
 
+<br>
 
 ![image](https://user-images.githubusercontent.com/24688298/177267615-770472de-a892-4aba-86fc-4d12f58f45a1.png)
 
 
 
-# 문의사항 : abas@softlunch.co.kr
+# 문의사항 : abas76@gmail.com
 
