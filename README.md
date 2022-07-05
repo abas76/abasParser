@@ -28,18 +28,15 @@ Body Sample :
 - SMS Request
 
 {
-
 	"inputCd":"S",	                // 'S'ms , 'P'ush
 	"msgInputKey": "15993333",	// 문자받은전화번호
 	"rawTitle":"",			
 	"rawText":"[카카오뱅크] 이*신(9999) 12/11 15:42 출금 7,250원 세븐일레븐 가평목동 잔액 4,123,123원"
-	
 }
 
 - SMS Response
 
 {
-
     "resultVO": {
         "resultCode": "0",
         "resultMessage": "SUCCESS",
@@ -80,18 +77,15 @@ Body Sample :
 - Push Request
 
 {
-
 	"inputCd":"P",			            // 'S'ms , 'P'ush
 	"msgInputKey":"com.shinhan.smartcaremgr",   // 노티받은 앱패키지명
 	"rawTitle":"SOL알리미",			    // 노티메세지 타이틀
 	"rawText":"신한카드(7912)승인 홍*동 10,000원(일시불)02/07 17:21 감성타코강남역점 누적 5,123,1234원"
-	
 }
 
 - Push Response 
 
 {
-
     "resultVO": {
         "resultCode": "0",
         "resultMessage": "SUCCESS",
@@ -126,8 +120,12 @@ Body Sample :
         "parsingSuccess": true
     },
     "parsingSuccess": true
-    
 }
+
+
+![image](https://user-images.githubusercontent.com/24688298/177267615-770472de-a892-4aba-86fc-4d12f58f45a1.png)
+
+
 
 # 문의사항 : abas@softlunch.co.kr
 
